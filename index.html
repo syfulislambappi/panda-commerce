@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commere - Online Retailing Store</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- BOOTSTRAP CDN CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FONTAWESOME CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
+</head>
+
+<body style="background-color: #f4f4f4;">
+    <!-- NAVIGATION SECTION -->
+    <header class="bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand me-5 mt-2" href="index.html"><img class="img-fluid" src="./images/logo.png"
+                        alt="Panda Commerce Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="mt-2">
+                        <div class="input-group">
+                            <input class="form-control rounded-end rounded-pill border-end-0" type="search"
+                                placeholder="Search" aria-label="Search">
+                            <button
+                                class="input-group-text rounded-start rounded-pill border-start-0 bg-white text-black-50"
+                                type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mt-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#catagories">Catagories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN SECTION -->
+    <main class="pb-5 bg-white">
+        <!-- CAROUSEL SECTION -->
+        <div class="container pt-5">
+            <div id="carousel-control" class="carousel slide p-5" data-bs-ride="carousel"
+                style="background-color: #FEEAE9; border-radius: 10px;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-8 mb-5 mb-lg-0">
+                                <h1 class="fw-bold">Mi LED TV 4A PRO 32</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.</p>
+                                <p class="display-5 fw-bold" style="color: #FF136F;">$1289</p>
+                                <button class="btn text-light border-0"
+                                    style="background-image: linear-gradient(to top, #FF589B, #FF136F);">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="./images/banner-images/tv.png" class="d-block w-100" alt="TV Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-8 mb-5 mb-lg-0">
+                                <h1 class="fw-bold">Cool Dude HeadPhone</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.</p>
+                                <p class="display-5 fw-bold" style="color: #FF136F;">$420</p>
+                                <button class="btn text-light border-0"
+                                    style="background-image: linear-gradient(to top, #FF589B, #FF136F);">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="./images/banner-images/headphone.png" class="d-block w-100"
+                                    alt="HeadPhone Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-8 mb-5 mb-lg-0">
+                                <h1 class="fw-bold">Xbox for you living room</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.</p>
+                                <p class="display-5 fw-bold" style="color: #FF136F;">$768</p>
+                                <button class="btn text-light border-0"
+                                    style="background-image: linear-gradient(to top, #FF589B, #FF136F);">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="./images/banner-images/xbox.png" class="d-block w-100" alt="Xbox Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-control"
+                    data-bs-slide="prev">
+                    <i class="fas fa-arrow-left fw-bold fs-3"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-control"
+                    data-bs-slide="next">
+                    <i class="fas fa-arrow-right fs-3 fw-bold" aria-hidden="true"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- CATAGORY SECTION -->
+        <div class="container mt-5" id="catagories">
+            <h2 class="mb-4">Catagories</h2>
+            <div class="row row-cols-1 row-cols-md-3 gx-4 gy-3 gy-md-0">
+                <div>
+                    <div class="d-flex justify-content-between align-items-center text-white py-3 px-4"
+                        style="background-image: linear-gradient(#FF9C35, #FFD019); border-radius: 12px;">
+                        <h3>Watch</h3>
+                        <img class="d-block w-100" src="./images/categories/watch.png" alt="Watch Image"
+                            style="max-width: 78px;">
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-between align-items-center text-white py-3 px-4"
+                        style="background-image: linear-gradient(#FF589B, #FF136F); border-radius: 12px;">
+                        <h3>Bag</h3>
+                        <img class="d-block w-100" src="./images/categories/bag.png" alt="Bag Image"
+                            style="max-width: 78px;">
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-between align-items-center text-white py-3 px-4"
+                        style="background-image: linear-gradient(#4289FF, #3F07F8); border-radius: 12px;">
+                        <h3>Shoes</h3>
+                        <img class="d-block w-100" src="./images/categories/watch.png" alt="Shoes Image"
+                            style="max-width: 78px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- SHOES SECTION -->
+    <section class="py-5" id="products">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Shoes</h2>
+                <a class="text-warning text-decoration-none" href="#">See All</a>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 gx-4 gy-5 justify-content-center">
+                <div style="max-width: 26rem;">
+                    <div class="card border-0 shadow py-3" style="border-radius: 10px;">
+                        <img class="card-img-top" src="./images/shoes/shoe-1.png" alt="Shoe One">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Rebook Dart Men's Shoes</h5>
+                            <p class="card-text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            </p>
+                            <p class="fs-4 text-dark fw-bold">$1289</p>
+                            <div class="card-footer bg-white border-0"><a href="#" class="btn btn-dark px-4">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="max-width: 26rem;">
+                    <div class="card border-0 shadow py-3" style="border-radius: 10px;">
+                        <img class="card-img-top" src="./images/shoes/shoe-2.png" alt="Shoe One">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Nike 360</h5>
+                            <p class="card-text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            </p>
+                            <p class="fs-4 text-dark fw-bold">$489</p>
+                            <div class="card-footer bg-white border-0"><a href="#" class="btn btn-dark px-4">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="max-width: 26rem;">
+                    <div class="card border-0 shadow py-3" style="border-radius: 10px;">
+                        <img class="card-img-top" src="./images/shoes/shoe-3.png" alt="Shoe One">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Red Airmax</h5>
+                            <p class="card-text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            </p>
+                            <p class="fs-4 text-dark fw-bold">$450</p>
+                            <div class="card-footer border-0 bg-white"><a href="#" class="btn btn-dark px-4">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BACKPACK SECTION -->
+    <section class="py-5">
+        <div class="container pb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Backpack</h2>
+                <a class="text-warning text-decoration-none" href="#">See All</a>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 gx-0 gy-5 gx-lg-4 gx-md-4 justify-content-center">
+                <div style="max-width: 26rem;">
+                    <div class="card border-0 shadow py-3" style="border-radius: 10px;">
+                        <img class="card-img-top" src="./images/bags/bag-1.png" alt="Bag One">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ison Backpack</h5>
+                            <p class="card-text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            </p>
+                            <p class="fs-4 text-dark fw-bold">$1289</p>
+                            <div class="card-footer bg-white border-0"><a href="#" class="btn btn-dark px-4">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="max-width: 26rem;">
+                    <div class="card border-0 shadow py-3" style="border-radius: 10px;">
+                        <img class="card-img-top" src="./images/bags/bag-2.png" alt="Bag Two">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Biaowang Backpack</h5>
+                            <p class="card-text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            </p>
+                            <p class="fs-4 text-dark fw-bold">$489</p>
+                            <div class="card-footer bg-white border-0"><a href="#" class="btn btn-dark px-4">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="max-width: 26rem;">
+                    <div class="card border-0 shadow py-3" style="border-radius: 10px;">
+                        <img class="card-img-top" src="./images/bags/bag-3.png" alt="Bag Three">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                            <p class="card-text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            </p>
+                            <p class="fs-4 text-dark fw-bold">$450</p>
+                            <div class="card-footer bg-white border-0"><a href="#" class="btn btn-dark px-4">BUY NOW <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUBSCRIPTION SECTION -->
+    <section class="py-5" id="subscribe">
+        <div class="container d-flex justify-content-center text-center align-items-center"
+            style="background-color: #FEEAE9; min-height: 300px; border-radius: 10px;">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales specials and more</p>
+                <form action="/">
+                    <div class="input-group">
+                        <input class="form-control" type="email" name="email" placeholder="Enter your email">
+                        <button class="btn border-0 text-white w-25" type="submit"
+                            style="background-image: linear-gradient(to bottom, #FF589B, #FF136F);">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer class="py-3">
+        <div class="container">
+            <p class="text-center fs-6">2021 &copy; all rights reserved by panda commerce online shop.</p>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP CDN JS LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
